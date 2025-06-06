@@ -1,0 +1,85 @@
+    body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    backlground-image: url("images/bats.gif"), url("images/bats.gif");
+    background-repeat: repeat-y, repeat-y;
+    background-position: left top, right top;
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center content container */
+.container {
+    background-color: rgba(red, green, blue, alpha);
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+header {
+    background: linear-gradient(to right, orange, black);
+    color: black;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+main h3 {
+    font-size: 20px;
+    color: black;
+}
+h3::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+main h4 {
+    font-size: 20px;
+    color: black
+}
+    ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: orange;
+    text-decoration: none;
+}
+
+
+.product-link {
+  color: orange;
+  text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(to right, orange, black);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
